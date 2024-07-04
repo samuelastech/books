@@ -1,0 +1,7 @@
+@import url("config/normalize.css");
+@import url("config/myreset.css");
+@import url("config/variables.css");
+
+body {
+  background-color: var(--bg-color);
+}

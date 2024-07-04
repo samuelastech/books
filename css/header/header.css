@@ -1,0 +1,22 @@
+.books-header {
+  padding: 1rem .75rem;
+  background-color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .menu {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url("../../assets/icons/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}

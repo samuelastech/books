@@ -26,3 +26,15 @@
   padding: 1rem;
   background-color: orange;
 }
+
+@media screen and (min-width: 1024px) {
+  .recent-topics {
+    > .title {
+      font-size: 1.5rem;
+    }
+  }
+
+  .recent-button {
+    font-size: 1.5rem;
+  }
+}

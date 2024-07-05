@@ -1,6 +1,7 @@
 .contact-section {
   background-color: var(--white);
-  padding: 1rem;
+  padding: 2.5rem 2rem;
+  text-align: center;
 
   > .title {
     font-weight: 500;
@@ -17,5 +18,13 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contact-section {
+    > .title {
+      font-size: 1.5rem;
+    }
   }
 }

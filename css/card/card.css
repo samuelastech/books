@@ -1,5 +1,6 @@
 .section-card {
   line-height: 1.5;
+  max-width: 450px;
   background-color: var(--white);
   padding: 1rem;
   width: 90vw;
@@ -43,7 +44,7 @@
   .description {
     font-size: 0.775rem;
     display: -webkit-box;
-    -webkit-line-clamp: 3; /** número de linhas que você quer exibir */
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -64,5 +65,11 @@
     background-repeat: no-repeat;
     width: 15px;
     height: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section-card {
+    margin: 2rem auto;
   }
 }

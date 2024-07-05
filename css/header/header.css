@@ -13,4 +13,42 @@
   .icon {
     padding: 1rem;
   }
+
+  .title {
+    display: none;
+  }
+}
+
+.options-list {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .books-header {
+    .title {
+      display: block;
+    }
+
+    .icon.-transparent {
+      display: none;
+    }
+  }
+
+  .options-list {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+
+    > .item, > label {
+      padding: 1rem;
+    }
+
+    > .checkbox {
+      display: none;
+    }
+
+    > .checkbox:checked ~ .list-menu {
+      display: block;
+    }
+  }
 }

@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Books</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
 
   <header class="books-header">
@@ -39,5 +42,42 @@
     </form>
   </section>
 
+  <section class="carousel-section">
+    <h2 class="title">Coming out</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+      
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="assets/books/Aristotle.jpg" class="image" alt="Book about Aristotle"></div>
+        <div class="swiper-slide"><img src="assets/books/Freud.jpg" class="image" alt="Book about Freud"></div>
+        <div class="swiper-slide"><img src="assets/books/Plato.jpg" class="image" alt="Book about Plato"></div>
+        <div class="swiper-slide"><img src="assets/books/It.jpg" class="image" alt="Book about Plato"></div>
+        <div class="swiper-slide"><img src="assets/books/Carrie.jpg" class="image" alt="Book about Plato"></div>
+        <div class="swiper-slide"><img src="assets/books/Helena.jpg" class="image" alt="Book about Plato"></div>
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+      }
+    })
+  </script>
 </body>
+
 </html>

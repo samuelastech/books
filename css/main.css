@@ -10,6 +10,9 @@
 
 @import url("carousel/carousel.css");
 
+@import url("card/card.css");
+@import url("card/button.css");
+
 body {
   background-color: var(--bg-color);
   font-family: var(--main-font);

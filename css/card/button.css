@@ -1,0 +1,12 @@
+.section-button {
+  > .root {
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: var(--orange-400);
+    width: 100%;
+    color: var(--white);
+    font-weight: 700;
+    text-wrap: nowrap;
+  }
+}

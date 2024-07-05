@@ -1,0 +1,68 @@
+.section-card {
+  line-height: 1.5;
+  background-color: var(--white);
+  padding: 1rem;
+  width: 90vw;
+  margin: 0 auto 1rem auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  > .container {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .subcontainer {
+    flex: 1;
+  }
+
+  .subcontainer {
+    flex: 1;
+  }
+
+  .icon {
+    padding: 0.5rem;
+  }
+
+  .cardtitle {
+    font-size: 0.875rem;
+    color: var(--orange-400);
+    font-weight: 700;
+  }
+
+  .booktitle {
+    font-size: 1.125rem;
+    color: var(--blue-800);
+    font-weight: 700;
+    margin: 0.5rem 0;
+  }
+
+  .description {
+    font-size: 0.775rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /** número de linhas que você quer exibir */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .image {
+    width: 100%;
+  }
+}
+
+.score-stars {
+  display: flex;
+  margin-bottom: 0.5rem;
+
+  .star {
+    background-image: url("../../assets/icons/Star.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+  }
+}

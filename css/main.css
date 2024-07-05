@@ -5,6 +5,9 @@
 @import url("header/header.css");
 @import url("header/menu-hamburguer.css");
 
+@import url("banner/banner.css");
+@import url("banner/search-book.css");
+
 body {
   background-color: var(--bg-color);
   font-family: var(--main-font);

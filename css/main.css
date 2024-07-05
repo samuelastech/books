@@ -1,22 +1,17 @@
 @import url("config/normalize.css");
 @import url("config/myreset.css");
 @import url("config/variables.css");
-
 @import url("header/header.css");
 @import url("header/menu-hamburguer.css");
-
 @import url("banner/banner.css");
 @import url("banner/search-book.css");
-
 @import url("carousel/carousel.css");
-
 @import url("card/card.css");
 @import url("card/button.css");
-
 @import url("recent-topics/recent-topics.css");
-
 @import url("contact/contact.css");
 @import url("large-input/large-input.css");
+@import url("footer/footer.css");
 
 body {
   background-color: var(--bg-color);

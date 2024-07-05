@@ -1,0 +1,5 @@
+.footer-section {
+  height: 50px;
+  border-top: 1px solid var(--black);
+  background-color: var(--white);
+}

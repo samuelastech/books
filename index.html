@@ -9,13 +9,24 @@
 <body>
   <header class="books-header">
     <div class="container">
-      <span class="menu"></span>
-      <a href="/"><img src="assets/Logo.svg" alt="Books' logo" /></a>
+      <div class="menu-hamburguer">
+        <input type="checkbox" id="menubutton" class="checkbox" />
+        <label for="menubutton">
+          <span class="bars"></span>
+        </label>
+        <ul class="list-menu">
+          <li class="title">Categories</li>
+          <li class="item"><a href="#" class="link">Programming</a></li>
+          <li class="item"><a href="#" class="link">Front-End</a></li>
+          <li class="item"><a href="#" class="link">Infrastructure</a></li>
+        </ul>
+      </div>
+      <a href="/"><img src="assets/Logo.svg" alt="Books' logo" class="icon" /></a>
     </div>
     <div class="container">
-      <a href="#"><img src="assets/icons/Favorites.svg" alt="My favorites" /></a>
-      <a href="#"><img src="assets/icons/Shooping.svg" alt="Shopping cart" /></a>
-      <a href="#"><img src="assets/icons/User.svg" alt="My profile" /></a>
+      <a href="#"><img src="assets/icons/Favorites.svg" alt="My favorites" class="icon" /></a>
+      <a href="#"><img src="assets/icons/Shooping.svg" alt="Shopping cart" class="icon" /></a>
+      <a href="#"><img src="assets/icons/User.svg" alt="My profile" class="icon" /></a>
     </div>
   </header>
 </body>

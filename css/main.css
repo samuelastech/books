@@ -3,7 +3,10 @@
 @import url("config/variables.css");
 
 @import url("header/header.css");
+@import url("header/menu-hamburguer.css");
 
 body {
   background-color: var(--bg-color);
+  font-family: var(--main-font);
+  font-weight: 400;
 }

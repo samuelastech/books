@@ -1,0 +1,45 @@
+.menu-hamburguer {
+  .bars {
+    padding: 2rem;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url("../../assets/icons/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .checkbox {
+    display: none;
+  }
+
+  .checkbox:checked ~ .list-menu { 
+    display: block;
+  }
+}
+
+.list-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  width: 60vw;
+  background-color: var(--white);
+
+  > .title, > .item {
+    padding: 1rem;
+    list-style: none;
+  }
+
+  > .title {
+    font-weight: 700;
+    color: var(--orange-400);
+  }
+
+  > .item > .link {
+    background: var(--blue-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+  }
+}

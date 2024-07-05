@@ -1,0 +1,21 @@
+.contact-section {
+  background-color: var(--white);
+  padding: 1rem;
+
+  > .title {
+    font-weight: 500;
+    font-size: 1.125rem;
+  }
+
+  > .description {
+    margin: 1rem 0;
+  }
+
+  > .title, > .description {
+    font-size: 1rem;
+    background: var(--blue-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}

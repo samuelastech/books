@@ -1,0 +1,52 @@
+.large-input {
+  > .input {
+    background-color: transparent;
+    width: 100%;
+    border-radius: 24px;
+    text-align: center;
+    padding: 1rem;
+
+    &::placeholder {
+      font-size: 0.875rem;
+      font-weight: 400;
+
+      &::before {
+        content: 'a';
+        width: 30px;
+        height: 30px;
+      }
+    }
+
+    &.-email::placeholder {
+      background: url("/assets/icons/Email.svg");
+      background-color: transparent;
+      background-repeat: no-repeat;
+      background-position: 0.5rem;
+    }
+
+    &.-search::placeholder {
+      background: url("/assets/icons/Search.svg");
+      background-color: transparent;
+      background-repeat: no-repeat;
+      background-position: 0.5rem;
+    }
+
+    &.-black {
+      border: 1px solid var(--black);
+      color: var(--black);
+
+      &::placeholder {
+        color: var(--black);
+      }
+    }
+
+    &.-white {
+      border: 1px solid var(--white);
+      color: var(--white);
+
+      &::placeholder {
+        color: var(--white);
+      }
+    }
+  }
+}

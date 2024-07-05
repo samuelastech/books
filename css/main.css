@@ -15,6 +15,9 @@
 
 @import url("recent-topics/recent-topics.css");
 
+@import url("contact/contact.css");
+@import url("large-input/large-input.css");
+
 body {
   background-color: var(--bg-color);
   font-family: var(--main-font);

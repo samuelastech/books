@@ -1,0 +1,27 @@
+.recent-topics {
+  background: var(--blue-gradient);
+  color: var(--white);
+  padding: 2.5rem 2rem;
+
+  > .title {
+    margin: 1rem 0;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  > .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    flex-wrap: wrap;
+  }
+}
+
+.recent-button {
+  font-weight: 700;
+  padding: 1rem;
+  background-color: orange;
+}
